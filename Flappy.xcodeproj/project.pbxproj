@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9DAF74011BB2578E00050933 /* HomeScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DAF74001BB2578E00050933 /* HomeScreen.m */; settings = {ASSET_TAGS = (); }; };
+		9DAF74481BB31A7B00050933 /* CharacterScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DAF74471BB31A7B00050933 /* CharacterScreen.m */; settings = {ASSET_TAGS = (); }; };
+		9DAF744B1BB33F0300050933 /* BackgroundScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DAF744A1BB33F0300050933 /* BackgroundScene.m */; settings = {ASSET_TAGS = (); }; };
 		9DFA65BF1BAE827F00B23F3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFA65BE1BAE827F00B23F3E /* main.m */; };
 		9DFA65C21BAE827F00B23F3E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFA65C11BAE827F00B23F3E /* AppDelegate.m */; };
 		9DFA65C51BAE827F00B23F3E /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFA65C41BAE827F00B23F3E /* GameScene.m */; };
@@ -18,7 +21,7 @@
 		9DFA65DD1BAE827F00B23F3E /* FlappyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFA65DC1BAE827F00B23F3E /* FlappyTests.m */; };
 		9DFA65E81BAE827F00B23F3E /* FlappyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFA65E71BAE827F00B23F3E /* FlappyUITests.m */; };
 		9DFA65F71BAE82BE00B23F3E /* SpriteWithCount.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFA65F61BAE82BE00B23F3E /* SpriteWithCount.m */; settings = {ASSET_TAGS = (); }; };
-		9DFA65FA1BAF30AB00B23F3E /* HomeScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFA65F91BAF30AB00B23F3E /* HomeScreen.m */; settings = {ASSET_TAGS = (); }; };
+		9DFA65FD1BAF6D4F00B23F3E /* CustomGUI.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DFA65FC1BAF6D4F00B23F3E /* CustomGUI.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +42,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9DAF73FF1BB2578E00050933 /* HomeScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScreen.h; sourceTree = "<group>"; };
+		9DAF74001BB2578E00050933 /* HomeScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScreen.m; sourceTree = "<group>"; };
+		9DAF74461BB31A7B00050933 /* CharacterScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharacterScreen.h; sourceTree = "<group>"; };
+		9DAF74471BB31A7B00050933 /* CharacterScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharacterScreen.m; sourceTree = "<group>"; };
+		9DAF74491BB33F0300050933 /* BackgroundScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackgroundScene.h; sourceTree = "<group>"; };
+		9DAF744A1BB33F0300050933 /* BackgroundScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackgroundScene.m; sourceTree = "<group>"; };
 		9DFA65BA1BAE827F00B23F3E /* Flappy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flappy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9DFA65BE1BAE827F00B23F3E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9DFA65C01BAE827F00B23F3E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -60,8 +69,8 @@
 		9DFA65E91BAE827F00B23F3E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DFA65F51BAE82BE00B23F3E /* SpriteWithCount.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpriteWithCount.h; sourceTree = "<group>"; };
 		9DFA65F61BAE82BE00B23F3E /* SpriteWithCount.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpriteWithCount.m; sourceTree = "<group>"; };
-		9DFA65F81BAF30AB00B23F3E /* HomeScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeScreen.h; sourceTree = "<group>"; };
-		9DFA65F91BAF30AB00B23F3E /* HomeScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeScreen.m; sourceTree = "<group>"; };
+		9DFA65FB1BAF6D4F00B23F3E /* CustomGUI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomGUI.h; sourceTree = "<group>"; };
+		9DFA65FC1BAF6D4F00B23F3E /* CustomGUI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomGUI.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,8 +135,14 @@
 				9DFA65BD1BAE827F00B23F3E /* Supporting Files */,
 				9DFA65F51BAE82BE00B23F3E /* SpriteWithCount.h */,
 				9DFA65F61BAE82BE00B23F3E /* SpriteWithCount.m */,
-				9DFA65F81BAF30AB00B23F3E /* HomeScreen.h */,
-				9DFA65F91BAF30AB00B23F3E /* HomeScreen.m */,
+				9DFA65FB1BAF6D4F00B23F3E /* CustomGUI.h */,
+				9DFA65FC1BAF6D4F00B23F3E /* CustomGUI.m */,
+				9DAF73FF1BB2578E00050933 /* HomeScreen.h */,
+				9DAF74001BB2578E00050933 /* HomeScreen.m */,
+				9DAF74461BB31A7B00050933 /* CharacterScreen.h */,
+				9DAF74471BB31A7B00050933 /* CharacterScreen.m */,
+				9DAF74491BB33F0300050933 /* BackgroundScene.h */,
+				9DAF744A1BB33F0300050933 /* BackgroundScene.m */,
 			);
 			path = Flappy;
 			sourceTree = "<group>";
@@ -289,11 +304,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DFA65FD1BAF6D4F00B23F3E /* CustomGUI.m in Sources */,
+				9DAF74481BB31A7B00050933 /* CharacterScreen.m in Sources */,
+				9DAF74011BB2578E00050933 /* HomeScreen.m in Sources */,
 				9DFA65CA1BAE827F00B23F3E /* GameViewController.m in Sources */,
 				9DFA65C21BAE827F00B23F3E /* AppDelegate.m in Sources */,
+				9DAF744B1BB33F0300050933 /* BackgroundScene.m in Sources */,
 				9DFA65C51BAE827F00B23F3E /* GameScene.m in Sources */,
 				9DFA65BF1BAE827F00B23F3E /* main.m in Sources */,
-				9DFA65FA1BAF30AB00B23F3E /* HomeScreen.m in Sources */,
 				9DFA65F71BAE82BE00B23F3E /* SpriteWithCount.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -522,6 +540,7 @@
 				9DFA65EE1BAE827F00B23F3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9DFA65EF1BAE827F00B23F3E /* Build configuration list for PBXNativeTarget "FlappyTests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +549,7 @@
 				9DFA65F11BAE827F00B23F3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9DFA65F21BAE827F00B23F3E /* Build configuration list for PBXNativeTarget "FlappyUITests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +558,7 @@
 				9DFA65F41BAE827F00B23F3E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

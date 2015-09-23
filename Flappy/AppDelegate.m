@@ -16,6 +16,11 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+    
+    _characterTextureFlap = [SKTexture textureWithImageNamed:@"marioJumping"];
+    _characterTextureStand = [SKTexture textureWithImageNamed:@"marioStanding"];
+    _appBackground = [SKTexture textureWithImageNamed:@"background"];
+
     // Override point for customization after application launch.
     return YES;
 }
